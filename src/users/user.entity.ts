@@ -17,8 +17,8 @@ export class User {
   @Column()
   telephone: string;
 
-  @Column()
-  adresse: string;
+  @Column({ nullable: true })
+adresse: string;
 
   @Column()
   role: string;
