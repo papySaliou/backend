@@ -1,3 +1,4 @@
+
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity('users')
@@ -17,7 +18,7 @@ export class User {
   @Column()
   telephone: string;
 
-  @Column({ nullable: true })
+@Column({ nullable: true })
 adresse: string;
 
   @Column()
